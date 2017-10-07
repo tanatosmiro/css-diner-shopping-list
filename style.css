@@ -1,0 +1,135 @@
+*{transition: all .1s ease-in;
+
+list-style-type: none;
+}
+header {
+	background-color: #4A4F56;
+	color: pink;
+	text-align: center;
+	padding: 20px;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	line-height: 7px;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+html,
+body {
+	min-height: 100%;
+
+}
+
+body {
+ background-color: #3A3F46;
+ margin: 0 auto;
+ border: 10px solid white;
+}
+
+.ba-container {
+	background-color: #a77fc4;
+	padding: 20px 30px;
+}
+
+main {
+	background-color: #3B3F45;
+	max-width: 1000px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+
+
+.ba-container {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.ba-container label {
+	display: block;
+	cursor: pointer;
+	padding: 15px;
+}
+
+.ba-container label:hover {
+	background-color: #aa42f4;
+	border-top: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+.ba-container label:active {
+	background-color: pink;
+}
+
+.ba-container input {
+	margin-right: 15px;
+	display: inline-block;
+}
+
+.ba-container span {
+	font-size: 20px;
+	color: #fff;
+	font-family: Arial;
+}
+
+.ba-smalltext {
+	font-size: 10px;
+	color: #a69cad ;
+	font-family: Arial;
+}
+
+.ba-smalltext:before { content: " ( " }
+
+.ba-smalltext:after { content: " ) " }
+
+.ba-container li:nth-child(2n) {
+	background-color: #9765bc;
+}
+
+.ba-container [type="checkbox"]:checked + span {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.ba-container [type="checkbox"]:checked + span small{
+	text-decoration: line-through;
+	color: grey;
+	}
+footer {
+	background-color: #4A4F56;
+	color: pink;
+	text-align: center;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1000px;
+}
+ h2 {
+ 	padding: 20px;
+ }
+
+ .ba-container input[type="checkbox"] {
+  height: 25px;
+  width: 25px;
+}
+
+.ba-container [type="checkbox"] {
+	display: none;
+}
+
+.ba-container label:before {
+	content: '';
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin-right: 10px;
+	border: 2px solid #fff;
+}
+
+.ba-container [type="checkbox"]:checked + label:before {
+	background: #FFF;
+}
